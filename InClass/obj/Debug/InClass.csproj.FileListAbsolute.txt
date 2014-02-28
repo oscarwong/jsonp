@@ -3,3 +3,4 @@ c:\users\iguest\documents\visual studio 2013\Projects\InClass\InClass\bin\InClas
 c:\users\iguest\documents\visual studio 2013\Projects\InClass\InClass\bin\InClass.pdb
 c:\users\iguest\documents\visual studio 2013\Projects\InClass\InClass\obj\Debug\InClass.dll
 c:\users\iguest\documents\visual studio 2013\Projects\InClass\InClass\obj\Debug\InClass.pdb
+c:\users\iguest\documents\visual studio 2013\Projects\InClass\InClass\obj\Debug\InClass.csprojResolveAssemblyReference.cache

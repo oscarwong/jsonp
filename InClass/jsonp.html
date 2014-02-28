@@ -3,9 +3,18 @@
 <head>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>
-        function updateResults(data) {
-            alert('jsonp success');
-            $("#results").html(JSON.stringify(data));
+        $.ajax({
+            crossDomain: true,
+            contenType: "application/json; charset=utf-8",
+            url: "http://http://inclassexample.azurewebsites.net/WebService1",
+            data: { n: 113 },
+            dataType: "jsonp",
+            success: onDataReceived
+        });
+
+        function onDataReceived(data)
+        {
+            alert("data received");
         }
     </script>
     <title></title>
